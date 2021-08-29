@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background:url(images/weather-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+  }
+  .card{
+    width: 50%;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 10px;
+  }
+  
+  .card h1{
+    font-size: 3rem;
+      color: white;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+      color: white;
+    text-align: center;
+    margin:40px 0;
+    font-size:25px;
+  }
+  .pointer {cursor: pointer;
+}
